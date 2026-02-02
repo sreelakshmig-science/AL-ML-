@@ -1,0 +1,87 @@
+print("Hello! World")
+
+s="Sreelakshmi G"
+print(s)
+
+s=3.0
+x=int(s)
+x
+
+x= int(input("Enter your Salary "))
+y= int(input("Year of Service "))
+
+if y>5:
+  print(x +(x*0.05))
+
+else:
+  print("Not Eligible")
+
+x=int(input())
+y=int(input())
+
+if x==y:
+  print("Square")
+
+
+x=int(input())
+y=int(input())
+
+if x==y:
+  print("Equal")
+elif x>y:
+  print("X is greater = " + str(x))
+else:  
+  print("Y is greater = " + str(y))
+
+x=int(input())
+
+if x>5:
+  print("X is greater than 5")
+  if x>10:
+    print("X is greater than 10")
+  else:
+    print("not greater than 10")
+
+for i in range(1, 11):
+    print(f"Multiplication table of {i}:")
+    for j in range(1, 11):
+        result = i * j
+        print(f"{i} × {j} = {result:2d}")  
+    print()
+
+def sum(x,y):
+  sum=x+y
+  return sum
+
+t = int(input())
+u = int(input())
+sum(t,u)
+
+x=int(input())
+def sum(x):
+  if x>0:
+    return True
+
+if sum(x):
+  print("absolute")
+else:
+  print("not absolute")
+
+a=[1,2,3,4,5]
+def mul(a):
+  total=1
+  for i in a:
+    total *= i
+  return total
+
+mul(a)
+
+
+a=[1,2,3,4,5]
+def sum(a):
+  total=0
+  for i in a:
+    total += i
+  return total
+
+sum(a)
