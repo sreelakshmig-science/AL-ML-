@@ -1,11 +1,11 @@
-print("Hello! World")
-
-s="Sreelakshmi G"
-print(s)
-
-s=3.0
-x=int(s)
-x
+  print("Hello! World")
+  
+  s="Sreelakshmi G"
+  print(s)
+  
+  s=3.0
+  x=int(s)
+  x
 
 x= int(input("Enter your Salary "))
 y= int(input("Year of Service "))
@@ -28,10 +28,10 @@ y=int(input())
 
 if x==y:
   print("Equal")
-elif x>y:
-  print("X is greater = " + str(x))
-else:  
-  print("Y is greater = " + str(y))
+  elif x>y:
+    print("X is greater = " + str(x))
+  else:  
+    print("Y is greater = " + str(y))
 
 x=int(input())
 
