@@ -7,14 +7,14 @@
     x=int(s)
     x
 
-x= int(input("Enter your Salary "))
-y= int(input("Year of Service "))
-
-if y>5:
-  print(x +(x*0.05))
-
-else:
-  print("Not Eligible")
+    x= int(input("Enter your Salary "))
+    y= int(input("Year of Service "))
+    
+    if y>5:
+      print(x +(x*0.05))
+    
+    else:
+      print("Not Eligible")
 
 x=int(input())
 y=int(input())
