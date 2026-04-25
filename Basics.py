@@ -23,15 +23,15 @@
       print("Square")
 
 
-x=int(input())
-y=int(input())
-
-if x==y:
-  print("Equal")
-  elif x>y:
-    print("X is greater = " + str(x))
-  else:  
-    print("Y is greater = " + str(y))
+    x=int(input())
+    y=int(input())
+    
+    if x==y:
+      print("Equal")
+      elif x>y:
+        print("X is greater = " + str(x))
+      else:  
+        print("Y is greater = " + str(y))
 
 x=int(input())
 
