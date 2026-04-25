@@ -16,11 +16,11 @@
     else:
       print("Not Eligible")
 
-x=int(input())
-y=int(input())
-
-if x==y:
-  print("Square")
+    x=int(input())
+    y=int(input())
+    
+    if x==y:
+      print("Square")
 
 
 x=int(input())
